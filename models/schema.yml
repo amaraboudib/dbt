@@ -1,0 +1,10 @@
+version: 2 
+
+models:
+  - name: stg_btc
+    description: "A staging table for BTC data"
+    columns: 
+      - name : hash_key
+        tests : 
+          - not_null
+          - unique
