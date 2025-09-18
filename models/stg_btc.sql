@@ -1,2 +1,2 @@
 select * 
-from {{source('btc','btc')}}
+from {{source('BTC', 'BTC')}}
